@@ -1,0 +1,10 @@
+[package]
+name = "vastarix"
+version = "0.1.0"
+authors = ["Tommie Levy <thomas.a.levy@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+indexmap = "^1.0.2"
+gc = "0.3.2"
+gc_derive = "0.3.2"
