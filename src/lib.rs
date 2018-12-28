@@ -1,5 +1,7 @@
 //#![warn(rust_2018_idioms)]
 
+pub mod parser;
+
 pub mod primitives {
     use gc_derive::{Finalize, Trace};
 

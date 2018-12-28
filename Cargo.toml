@@ -8,3 +8,8 @@ edition = "2018"
 indexmap = "^1.0.2"
 gc = "0.3.2"
 gc_derive = "0.3.2"
+regex = "*"
+
+[dependencies.nom]
+version = "^4.1"
+features = ["regexp"]
